@@ -1,0 +1,7 @@
+@import '~@angular/material/theming';
+@include mat-core();
+$starkend-primary: mat-palette($mat-blue);
+$starkend-accent: mat-palette($mat-teal);
+$starkend-warn: mat-palette($mat-red);
+$starkend-theme: mat-light-theme($starkend-primary, $starkend-accent, $starkend-warn);
+@include angular-material-theme($starkend-theme);
