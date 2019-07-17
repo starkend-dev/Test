@@ -89,10 +89,6 @@ THE SOFTWARE.
 
 @angular/material/divider
 
-@angular/material/menu
-
-@angular/material/toolbar
-
 @angular/platform-browser
 MIT
 
