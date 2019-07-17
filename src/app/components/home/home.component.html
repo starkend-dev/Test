@@ -1,4 +1,37 @@
-<div class="row">
+<div class="container-fluid">
+    <div class="col-12">
+        <ngb-carousel>
+            <ng-template ngbSlide>
+                <img src="assets/images/bg4.jpg" class="imge-carousel" alt="Random first slide">
+                <div class="carousel-caption">
+                    <h3>10 seconds between slides...</h3>
+                    <p>This carousel uses customised default values.</p>
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <img src="assets/images/bg3.jpg" class="imge-carousel" alt="Random first slide">
+                <div class="carousel-caption">
+                    <h3>No move events...</h3>
+                    <p>This carousel doesn't pause or resume on mouse events</p>
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <img src="assets/images/bg2.jpg" class="imge-carousel" alt="Random first slide">
+                <div class="carousel-caption">
+                    <h3>Add no wrap after last slide.</h3>
+                    <p>This carousel uses customised default values.</p>
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+</div>
+
+
+
+
+<!-- <div class="row">
     <div class="col-12 col-md-4">
         <mat-card class="skill-block">
             <mat-card-header>
@@ -32,5 +65,6 @@
             </mat-card-content>
         </mat-card>
     </div>
-</div>
+</div> -->
+
 <mat-divider class="my-3"></mat-divider>

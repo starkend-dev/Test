@@ -1,8 +1,15 @@
-$accent: #009088;
-$body-bg: #101010;
-$body-color: #bbbbbb;
-$alt-bg: #202020;
-$alt-color: #f2f2f2;
+$accent: #06413d;
+$body-bg: #fcfdfc;
+$body-color: #362f2f;
+$alt-bg: #f8fafa;
+$alt-color: #faf9f9;
+// Toolbar
+$toolbar-bg:#d8d0e9;
+// Header
+$header-bg:rgb(230, 230, 187);
 .accent-color {
     color: $accent;
 }
+
+// $navbar-sidebar-width: 232px;
+// $navbar-sidebar-breakpoint: 'md';
